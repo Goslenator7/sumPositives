@@ -1,0 +1,18 @@
+public class Positive {
+
+  public static int sum(int[] arr) {
+    
+    // Set sum to 0
+    int sum = 0;
+    
+    // Loop through each int in array, if it's bigger than 0 (positive)
+    // add it to sum
+    for (int tempInt : arr) {
+      if (tempInt > 0) {
+        sum += tempInt;
+      }
+    }
+    return sum;
+  }
+
+}
